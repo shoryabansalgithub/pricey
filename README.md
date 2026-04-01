@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next.js Starter Template
 
-## Getting Started
+A modern, high-performance starting point for your next web application. This template is pre-configured with the latest tools to provide a seamless development experience and a beautiful, fully responsive foundation.
 
-First, run the development server:
+## 🚀 Built With
+
+*   **Next.js (App Router)** - The React framework for production.
+*   **Tailwind CSS** - A utility-first CSS framework for rapid UI development.
+*   **Motion** - A production-ready motion library for React.
+*   **Phosphor Icons** - A flexible icon family for interfaces, diagrams, presentations.
+*   **TypeScript** - For type safety and better developer experience.
+
+## 📦 Getting Started
+
+### 1. Installation
+
+Clone this repository and install the dependencies:
+
+```bash
+git clone https://github.com/shoryabansalgithub/nextjs-starter.git your-project-name
+cd your-project-name
+npm install
+```
+
+### 2. Development
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Features Built In
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Sleek Initial Design:** A premium landing page setup right out of the box with glassmorphism, gradient text, and micro-interactions.
+- **Dark Mode Ready:** Built-in Tailwind classes mapped out for elegant dark themes.
+- **Hardware Accelerated Animations:** Configured with Motion for buttery-smooth visual transitions.
 
-## Learn More
+## 📁 Structure Highlights
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- `src/app/page.tsx` - The main entry point demonstrating animations, styling, and icon usage.
+- `src/app/globals.css` - Global stylesheet with Tailwind v4 integration.
+- `src/app/layout.tsx` - Root layout of your Next.js application.
